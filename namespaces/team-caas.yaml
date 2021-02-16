@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  labels:
+    name: team-caas
+  annotations:
+    contoso.com/owner: "team-caas@contoso.com"
+  name: team-caas
